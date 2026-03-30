@@ -145,7 +145,7 @@
             >;
         };
 
-        layer_4 {
+        navigation_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                                                                  &trans        &trans    &trans         &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans        &trans    &trans         &trans  &trans
