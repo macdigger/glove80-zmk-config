@@ -85,8 +85,8 @@
             bindings = <
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___                                                     &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___                                   &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
-&ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug 0x3399FF                              &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
-&ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug 0xFF4400                              &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+&ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug 0x3399FF                                   &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+&ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug 0xFF4400                                   &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
 &ug ___  &ug 0xFFAA00  &ug 0xFF4422  &ug 0x00CCAA  &ug 0x44CC44  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
             >;
@@ -112,7 +112,7 @@
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___                                   &ug ___  &ug 0x0044BB  &ug 0x003399  &ug 0x002277  &ug ___  &ug ___
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___                                   &ug ___  &ug 0x1188FF  &ug 0x9944FF  &ug 0x0066DD  &ug ___  &ug ___
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug 0x88CCFF  &ug 0x55BBFF  &ug 0x3399FF  &ug ___  &ug ___
-&ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug 0xCCECFF  &ug 0xCCECFF  &ug 0x0066FF  &ug ___  &ug ___
+&ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug 0xCCECFF  &ug 0xCCECFF  &ug 0xFFAA00  &ug ___  &ug ___
             >;
             layer-id = <LAYER_Numpad>;
         };
