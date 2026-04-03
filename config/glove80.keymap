@@ -87,10 +87,21 @@
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug 0x3399FF                                   &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug 0xFF4400                                   &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
 &ug ___  &ug 0xFFAA00  &ug 0xFF4422  &ug 0x00CCAA  &ug 0x44CC44  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+&ug ___  &ug YELLOW  &ug ___  &ug ___  &ug ORANGE          &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug ORANGE  &ug ___  &ug ___  &ug ___  &ug ___
+            >;
+            layer-id = <LAYER_Base>;
+        };
+
+        lower {
+            bindings = <
+&ug ___  &ug ___  &ug GREEN  &ug GREEN  &ug GREEN                                                     &ug GREEN  &ug GREEN  &ug GREEN  &ug ___  &ug ___
+&ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___                                   &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+&ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___                                   &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+&ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___                                   &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
+&ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
             >;
-
-            layer-id = <LAYER_Base>;
+            layer-id = <LAYER_Lower>;
         };
 
         navigation {
@@ -102,7 +113,6 @@
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug ___  &ug ___  &ug ___  &ug ___  &ug ___
             >;
-
             layer-id = <LAYER_Navigation>;
         };
 
@@ -115,7 +125,6 @@
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug 0x88CCFF  &ug 0x55BBFF  &ug 0x3399FF  &ug ___  &ug ___
 &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug ___  &ug ___  &ug ___  &ug ___  &ug ___  &ug ___          &ug 0xCCECFF  &ug 0xCCECFF  &ug 0xFFAA00  &ug ___  &ug ___
             >;
-
             layer-id = <LAYER_Numpad>;
         };
     };
@@ -297,6 +306,15 @@
             bindings = <&macro_press &kp LGUI>, <&macro_tap &kp V>, <&macro_release &kp LGUI>;
         };
 
+        // Command X to cut
+
+        cmd_x: cmd_x {
+            label = "&CMD_X";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI>, <&macro_tap &kp X>, <&macro_release &kp LGUI>;
+        };
+
         // Command Z to undo
 
         cmd_z: cmd_z {
@@ -336,6 +354,18 @@
             quick-tap-ms = <175>;
         };
 
+        // Hold to Cut
+
+        ht_cut: ht_cut {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            bindings = <&cmd_x>, <&kp>;
+
+            flavor = "tap-preferred";
+            quick-tap-ms = <175>;
+        };
+
         // Hold to Undo
 
         ht_undo: ht_undo {
@@ -363,8 +393,8 @@
 &kp EQUAL             &kp N1    &kp N2        &kp N3        &kp N4             &kp N5                                                                                         &kp N6  &kp N7          &kp N8     &kp N9    &kp N0    &kp MINUS
 &kp TAB               &kp Q     &kp W         &kp E         &kp R              &lt LAYER_Numpad T                                                                             &kp Y   &kp U           &kp I      &kp O     &kp P     &kp BSLH
 &kp ESC               &kp A     &kp S         &kp D         &kp F              &lt LAYER_Navigation G                                                                         &kp H   &kp J           &kp K      &kp L     &kp SEMI  &kp SQT
-&kp GRAVE             &kp Z     &ht_undo 0 X  &ht_copy 0 C  &ht_paste 0 V      &kp B                   &kp LSHFT  &kp LGUI  &kp LEFT_CONTROL  &kp LCTRL  &kp RGUI  &kp RSHFT  &kp N   &kp M           &kp COMMA  &kp DOT   &kp FSLH  &kp PG_UP
-&magic LAYER_Magic 0  &kp HOME  &kp END       &kp LEFT      &lt 1 RIGHT_ARROW                          &kp BSPC   &kp DEL   &kp LALT          &kp RALT   &kp RET   &kp SPACE          &lt 1 UP_ARROW  &kp DOWN   &kp LBKT  &kp RBKT  &kp PG_DN
+&kp GRAVE             &ht_undo 0 Z  &ht_cut 0 X  &ht_copy 0 C  &ht_paste 0 V      &kp B                   &kp LSHFT  &kp LGUI  &kp LEFT_CONTROL  &kp LCTRL  &kp RGUI  &kp RSHFT  &kp N   &kp M           &kp COMMA  &kp DOT   &kp FSLH  &kp PG_UP
+&magic LAYER_Magic 0  &kp LS(LA(LC(LGUI)))  &kp END       &kp LEFT      &lt 1 RIGHT_ARROW                          &kp BSPC   &kp DEL   &kp LALT          &kp RALT   &kp RET   &kp SPACE          &lt 1 UP_ARROW  &kp DOWN   &kp LBKT  &kp RBKT  &kp PG_DN
             >;
         };
 
