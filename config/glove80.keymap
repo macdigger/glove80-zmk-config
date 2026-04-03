@@ -285,7 +285,7 @@
             label = "&CMD_C";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LGUI &kp C &kp LGUI>;
+            bindings = <&macro_press &kp LGUI>, <&macro_tap &kp C>, <&macro_release &kp LGUI>;
         };
 
         // Command V to paste
@@ -294,7 +294,7 @@
             label = "&CMD_V";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LGUI &kp V &kp LGUI>;
+            bindings = <&macro_press &kp LGUI>, <&macro_tap &kp V>, <&macro_release &kp LGUI>;
         };
 
         // Command Z to undo
@@ -303,7 +303,7 @@
             label = "&CMD_Z";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LGUI &kp Z &kp LGUI>;
+            bindings = <&macro_press &kp LGUI>, <&macro_tap &kp Z>, <&macro_release &kp LGUI>;
         };
     };
 };
