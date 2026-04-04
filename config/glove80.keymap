@@ -21,6 +21,7 @@
 &ug_cl YELLOW RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug 0xFF7C4D  &ug BLACK  &ug BLACK  &ug 0xFF7C4D  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug_cl YELLOW RED
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE          &ug BLACK  &ug 0x6B1FCE  &ug 0x6B1FCE  &ug 0x6B1FCE  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <0>;
         };
 
@@ -33,6 +34,7 @@
 &ug 0xFF80BF  &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug ORANGE  &ug BLACK  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug 0xFF80BF
 &ug 0xFF80BF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80          &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0xFF80BF
             >;
+
             layer-id = <1>;
         };
 
@@ -45,6 +47,7 @@
 &ug 0xD9A521  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x7A00FF  &ug 0xD9A521  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug TEAL  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug BLACK  &ug BLACK
 &ug TEAL  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug PURPLE  &ug 0xFFD900          &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <2>;
         };
 
@@ -57,6 +60,7 @@
 &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x7A00FF  &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug 0x99F5FF  &ug BLUE  &ug BLUE  &ug BLACK  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF
 &ug BLACK  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF          &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00
             >;
+
             layer-id = <3>;
         };
 
@@ -69,6 +73,7 @@
 &ug 0x7A00FF  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0xD9A521  &ug 0x7A00FF  &ug 0x80FF00  &ug 0xD9A521  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x80FF00  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x7A00FF  &ug YELLOW
 &ug 0xFF7C4D  &ug BLUE  &ug 0xFF80BF  &ug 0xFF80BF  &ug BLUE          &ug 0xD9A521  &ug 0xD9A521  &ug 0xD9A521  &ug BLACK  &ug BLACK  &ug RED          &ug YELLOW  &ug GREEN  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
             >;
+
             layer-id = <4>;
         };
 
@@ -81,6 +86,7 @@
 &ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0x80FF00  &ug 0xFFD900  &ug 0x00FF80  &ug 0xD9A521  &ug 0x7A00FF  &ug 0xD9A521  &ug BLUE  &ug BLUE  &ug BLUE  &ug 0x00FF80  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x00FF80
 &ug BLACK  &ug BLACK  &ug BLUE  &ug BLUE  &ug BLUE          &ug 0xD9A521  &ug 0xD9A521  &ug 0xD9A521  &ug BLACK  &ug RED  &ug BLACK          &ug YELLOW  &ug GREEN  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
             >;
+
             layer-id = <5>;
         };
 
@@ -93,6 +99,7 @@
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <6>;
         };
 
@@ -105,6 +112,7 @@
 &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug RED  &ug BLACK  &ug BLUE  &ug BLUE  &ug BLACK  &ug RED  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x00FF80  &ug 0xFF80BF  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED          &ug RED  &ug RED  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug RED  &ug RED          &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <7>;
         };
     };
@@ -371,23 +379,23 @@
 
         layer_QWERTY {
             bindings = <
-&kp F1                          &kp F2               &kp F3              &kp F4              &kp F5                                                                                                                              &kp F6                &kp F7               &kp F8               &kp F9                   &kp F10
-&none                           &kp N1               &kp N2              &kp N3              &kp N4               &kp N5                                                                                                 &kp N6  &kp N7                &kp N8               &kp N9               &kp N0                   &kp LA(LG(SPACE))
-&none                           &kp Q                &kp W               &kp E               &kp R                &kp T                                                                                                  &kp Y   &kp U                 &kp I                &kp O                &kp P                    &kp MINUS
-&kp EQUAL                       &left_pinky LCTRL A  &left_ringy LALT S  &left_middy LGUI D  &left_index LSHFT F  &lt 1 G                                                                                                  &kp H   &right_index LSHFT J  &right_middy LGUI K  &right_ringy LALT L  &right_pinky LCTRL SEMI  &kp SQT
-&shift_left_td                   &kp Z                &kp X               &kp C               &kp V                &kp B   &lt 3 ESCAPE      &kp LS(LA(LC(LGUI)))  &kp PG_UP  &msc MOVE_Y(33)   &lt 7 INSERT  &kp ENTER    &kp N   &kp M                 &kp COMMA            &kp DOT              &kp FSLH                 &shift_right_td
-&magic 8 0                      &kp BSLH             &kp LPAR            &kp RPAR            &mo 3                        &kp BACKSPACE  &lt 2 DELETE          &kp PG_DN  &msc MOVE_Y(-33)  &lt 5 TAB     &lt 4 SPACE          &sk RSHFT             &kp LBKT             &kp RBKT             &kp GRAVE                &magic 8 0
+&kp F1          &kp F2               &kp F3              &kp F4              &kp F5                                                                                                                                 &kp F6                &kp F7               &kp F8               &kp F9                   &kp F10
+&none           &kp N1               &kp N2              &kp N3              &mt LS(LG(N4)) NUMBER_4  &kp N5                                                                                                &kp N6  &kp N7                &kp N8               &kp N9               &kp N0                   &kp LA(LG(SPACE))
+&none           &kp Q                &kp W               &kp E               &kp R                    &kp T                                                                                                 &kp Y   &kp U                 &kp I                &kp O                &kp P                    &kp MINUS
+&kp EQUAL       &left_pinky LCTRL A  &left_ringy LALT S  &left_middy LGUI D  &left_index LSHFT F      &lt 1 G                                                                                               &kp H   &right_index LSHFT J  &right_middy LGUI K  &right_ringy LALT L  &right_pinky LCTRL SEMI  &kp SQT
+&shift_left_td  &kp Z                &kp X               &kp C               &kp V                    &kp B    &lt 3 ESCAPE   &kp LS(LA(LC(LGUI)))  &kp PG_UP  &msc MOVE_Y(15)   &lt 7 INSERT  &kp ENTER    &kp N   &kp M                 &kp COMMA            &kp DOT              &kp FSLH                 &shift_right_td
+&magic 8 0      &kp BSLH             &kp LPAR            &kp RPAR            &mo 3                             &kp BACKSPACE  &lt 2 DELETE          &kp PG_DN  &msc MOVE_Y(-15)  &lt 5 TAB     &lt 4 SPACE          &sk RSHFT             &kp LBKT             &kp RBKT             &kp GRAVE                &magic 8 0
             >;
         };
 
         layer_Cursor {
             bindings = <
-&none      &none      &none          &none          &none                                                                           &none         &none          &none          &none          &none
-&none      &kp ESC    &kp INS        &kp LS(TAB)    &kp DEL    &none                                                     &none      &none         &none          &none          &none          &none
-&none      &kp RET    &kp SPACE      &kp TAB        &kp BSPC   &none                                                     &kp LG(X)  &kp LG(LEFT)  &kp UP_ARROW   &kp RG(RIGHT)  &kp TAB        &none
-&sk LSHFT  &kp LCTRL  &kp LALT       &kp LGUI       &kp LSHFT  &none                                                     &kp LG(C)  &kp LEFT      &kp UP         &kp DOWN       &none          &sk LSHFT
-&kp LG(L)  &kp LG(A)  &none          &none          &kp LG(F)  &none      &none   &none  &none  &none      &none  &none  &kp LG(V)  &kp LG(LEFT)  &kp PG_UP      &kp PG_DN      &kp LG(RIGHT)  &kp LG(L)
-&kp LG(K)  &kp LG(Z)  &kp LG(LS(Z))  &kp LG(LS(G))  &kp LG(G)             &tog 1  &none  &none  &kp LG(A)  &none  &none             &kp LG(F)     &kp LG(LS(G))  &kp LG(G)      &kp LG(H)      &kp LG(K)
+&none      &none      &none          &none          &none                                                                       &none         &none          &none          &none          &none
+&none      &kp ESC    &kp INS        &kp LS(TAB)    &kp DEL    &none                                                 &none      &none         &none          &none          &none          &none
+&none      &kp RET    &kp SPACE      &kp TAB        &kp BSPC   &none                                                 &kp LG(X)  &kp LG(LEFT)  &kp UP_ARROW   &kp RG(RIGHT)  &kp TAB        &none
+&sk LSHFT  &kp LCTRL  &kp LALT       &kp LGUI       &kp LSHFT  &none                                                 &kp LG(C)  &kp LEFT      &kp UP         &kp DOWN       &none          &sk LSHFT
+&kp LG(L)  &kp LG(A)  &none          &none          &kp LG(F)  &none  &none   &none  &none  &none      &none  &none  &kp LG(V)  &kp LG(LEFT)  &kp PG_UP      &kp PG_DN      &kp LG(RIGHT)  &kp LG(L)
+&kp LG(K)  &kp LG(Z)  &kp LG(LS(Z))  &kp LG(LS(G))  &kp LG(G)         &tog 1  &none  &none  &kp LG(A)  &none  &none             &kp LG(F)     &kp LG(LS(G))  &kp LG(G)      &kp LG(H)      &kp LG(K)
             >;
         };
 
@@ -404,12 +412,12 @@
 
         layer_Function {
             bindings = <
-&kp F14       &kp F15       &kp C_PREV     &kp C_NEXT     &kp C_PP                                                                                                  &kp C_MUTE     &kp C_VOL_DN  &kp C_VOL_UP  &none          &none
-&none         &kp ESC       &kp INS        &kp LS(TAB)    &kp DEL    &none                                                                        &kp C_MEDIA_HOME  &kp C_PLAY     &kp C_PREV    &kp C_NEXT    &kp C_STOP     &kp C_EJECT
-&none         &kp RET       &kp SPACE      &kp TAB        &kp BSPC   &kp K_CALC                                                                   &kp K_CALC        &kp F7         &kp F8        &kp F9        &kp F10        &kp F13
-&sk LSHFT     &kp LCTRL     &kp LALT       &kp LGUI       &kp LSHFT  &kp K_WWW                                                                    &kp K_WWW         &kp F4         &kp F5        &kp F6        &kp F11        &kp F14
-&none         &kp LG(A)     &none          &none          &kp LG(F)  &kp LS(LA(M))  &tog 3  &none  &none  &kp C_PREV  &kp C_PP      &kp C_MUTE    &kp LS(LA(M))     &kp F1         &kp F2        &kp F3        &kp F12        &kp F15
-&none         &kp LG(Z)     &kp LG(LS(Z))  &kp LG(LS(G))  &kp LG(G)                 &none   &none  &none  &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP                    &kp F15        &kp F15       &kp F14       &kp F14        &none
+&kp F14    &kp F15    &kp C_PREV     &kp C_NEXT     &kp C_PP                                                                                                  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none       &none
+&none      &kp ESC    &kp INS        &kp LS(TAB)    &kp DEL    &none                                                                        &kp C_MEDIA_HOME  &kp C_PLAY  &kp C_PREV    &kp C_NEXT    &kp C_STOP  &kp C_EJECT
+&none      &kp RET    &kp SPACE      &kp TAB        &kp BSPC   &kp K_CALC                                                                   &kp K_CALC        &kp F7      &kp F8        &kp F9        &kp F10     &kp F13
+&sk LSHFT  &kp LCTRL  &kp LALT       &kp LGUI       &kp LSHFT  &kp K_WWW                                                                    &kp K_WWW         &kp F4      &kp F5        &kp F6        &kp F11     &kp F14
+&none      &kp LG(A)  &none          &none          &kp LG(F)  &kp LS(LA(M))  &tog 3  &none  &none  &kp C_PREV  &kp C_PP      &kp C_MUTE    &kp LS(LA(M))     &kp F1      &kp F2        &kp F3        &kp F12     &kp F15
+&none      &kp LG(Z)  &kp LG(LS(Z))  &kp LG(LS(G))  &kp LG(G)                 &none   &none  &none  &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP                    &kp F15     &kp F15       &kp F14       &kp F14     &none
             >;
         };
 
