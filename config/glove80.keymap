@@ -29,9 +29,9 @@
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED                                   &ug RED  &ug 0x7A00FF  &ug 0x99F5FF  &ug 0x7A00FF  &ug BLACK  &ug BLACK
-&ug YELLOW  &ug 0xFF00FF  &ug 0x00FFFF  &ug GREEN  &ug YELLOW  &ug GREEN                                   &ug GREEN  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug YELLOW
+&ug YELLOW  &ug 0xFF00FF  &ug 0x00FFFF  &ug GREEN  &ug YELLOW  &ug RED                                   &ug GREEN  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug YELLOW
 &ug 0xFF80BF  &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug ORANGE  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug ORANGE  &ug BLACK  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug 0xFF80BF
-&ug 0xFF80BF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug RED  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80          &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0xFF80BF
+&ug 0xFF80BF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80          &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0xFF80BF
             >;
             layer-id = <1>;
         };
@@ -360,9 +360,9 @@
 &kp F1                          &kp F2               &kp F3              &kp F4              &kp F5                                                                                                                              &kp F6                &kp F7               &kp F8               &kp F9                   &kp F10
 &none                           &kp N1               &kp N2              &kp N3              &kp N4               &kp N5                                                                                                 &kp N6  &kp N7                &kp N8               &kp N9               &kp N0                   &kp LA(LG(SPACE))
 &none                           &kp Q                &kp W               &kp E               &kp R                &kp T                                                                                                  &kp Y   &kp U                 &kp I                &kp O                &kp P                    &kp MINUS
-&kp EQUAL                       &left_pinky LCTRL A  &left_ringy LALT S  &left_middy LGUI D  &left_index LSHFT F  &kp G                                                                                                  &kp H   &right_index LSHFT J  &right_middy LGUI K  &right_ringy LALT L  &right_pinky LCTRL SEMI  &kp SQT
-&sticky_key_modtap LSHFT LSHFT  &kp Z                &kp X               &kp C               &kp V                &kp B   &kp ESCAPE       &kp LS(LA(LC(LGUI)))  &kp PG_UP  &msc MOVE_Y(33)   &lt 7 INSERT  &kp ENTER    &kp N   &kp M                 &kp COMMA            &kp DOT              &kp FSLH                 &sticky_key_modtap RSHFT RSHFT
-&magic 8 0                      &kp BSLH             &kp LPAR            &kp RPAR            &mo 3                        &lt 1 BACKSPACE  &lt 2 DELETE          &kp PG_DN  &msc MOVE_Y(-33)  &lt 5 TAB     &lt 4 SPACE          &sk RSHFT             &kp LBKT             &kp RBKT             &kp GRAVE                &magic 8 0
+&kp EQUAL                       &left_pinky LCTRL A  &left_ringy LALT S  &left_middy LGUI D  &left_index LSHFT F  &lt 1 G                                                                                                  &kp H   &right_index LSHFT J  &right_middy LGUI K  &right_ringy LALT L  &right_pinky LCTRL SEMI  &kp SQT
+&sticky_key_modtap LSHFT LSHFT  &kp Z                &kp X               &kp C               &kp V                &kp B   &lt 3 ESCAPE      &kp LS(LA(LC(LGUI)))  &kp PG_UP  &msc MOVE_Y(33)   &lt 7 INSERT  &kp ENTER    &kp N   &kp M                 &kp COMMA            &kp DOT              &kp FSLH                 &sticky_key_modtap RSHFT RSHFT
+&magic 8 0                      &kp BSLH             &kp LPAR            &kp RPAR            &mo 3                        &kp BACKSPACE  &lt 2 DELETE          &kp PG_DN  &msc MOVE_Y(-33)  &lt 5 TAB     &lt 4 SPACE          &sk RSHFT             &kp LBKT             &kp RBKT             &kp GRAVE                &magic 8 0
             >;
         };
 
