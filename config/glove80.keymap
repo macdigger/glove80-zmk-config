@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
+#include <input/processors.dtsi>
 
 /* Per-key RGB underglow */
 
@@ -106,6 +107,42 @@
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED          &ug RED  &ug RED  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug RED  &ug RED          &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
             layer-id = <7>;
+        };
+
+        Mouse_slow {
+            bindings = <
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0x00FF80  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x00FF80                                   &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug BLACK  &ug BLACK
+&ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFFD900  &ug 0x80FF00  &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+            >;
+            layer-id = <9>;
+        };
+
+        Mouse_fast {
+            bindings = <
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0xFFD900  &ug 0x00FF80  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug 0x00FF80  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug 0x00FF80                                   &ug 0x00FF80  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug BLACK  &ug BLACK
+&ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFFD900  &ug 0x80FF00  &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+            >;
+            layer-id = <10>;
+        };
+
+        Mouse_warp {
+            bindings = <
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x80FF00  &ug 0x00FF80  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug 0x00FF80  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug 0x00FF80                                   &ug 0x00FF80  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug BLACK  &ug BLACK
+&ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFFD900  &ug 0x80FF00  &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+            >;
+            layer-id = <11>;
         };
     };
 };
@@ -348,6 +385,37 @@
 };
 
 /* Generated input processors */
+
+&mmv_input_listener {
+    slow {
+        layers = <9>;
+        input-processors = <&zip_xy_scaler 1 12>;
+    };
+    fast {
+        layers = <10>;
+        input-processors = <&zip_xy_scaler 4 1>;
+    };
+    warp {
+        layers = <11>;
+        input-processors = <&zip_xy_scaler 12 1>;
+    };
+};
+
+&msc_input_listener {
+    slow {
+        layers = <9>;
+        input-processors = <&zip_scroll_scaler 1 9>;
+    };
+    fast {
+        layers = <10>;
+        input-processors = <&zip_scroll_scaler 3 1>;
+    };
+    warp {
+        layers = <11>;
+        input-processors = <&zip_scroll_scaler 9 1>;
+    };
+};
+
 /* Automatically generated macro definitions */
 
 / {
@@ -430,7 +498,7 @@
 &none  &none           &none           &none           &none            &none                                                                            &none           &none           &none         &none           &none            &none
 &none  &none           &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT  &none                                                                            &msc SCRL_LEFT  &mkp LCLK       &mkp MCLK     &mkp RCLK       &msc SCRL_RIGHT  &none
 &none  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP                                                                     &msc SCRL_UP    &none           &none         &none           &kp K_APP        &mkp MB4
-&none  &msc SCRL_DOWN  &none           &none           &none            &msc SCRL_DOWN  &mkp MCLK  &kp K_APP  &mkp MB5  &kp LG(X)  &kp LG(C)  &kp LG(V)  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5
+&none  &msc SCRL_DOWN  &tog 9          &tog 10         &tog 11          &msc SCRL_DOWN  &mkp MCLK  &kp K_APP  &mkp MB5  &kp LG(X)  &kp LG(C)  &kp LG(V)  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5
 &none  &none           &kp LG(X)       &kp LG(C)       &kp LG(V)                        &mkp LCLK  &mkp RCLK  &mkp MB4  &none      &tog 5     &none                      &kp LSHFT       &kp LGUI      &kp LALT        &kp LCTRL        &none
             >;
         };
@@ -465,6 +533,39 @@
 &bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                   &none  &none  &none  &none  &none  &bootloader
 &sys_reset   &none            &none            &none            &none            &none            &bt_2  &bt_3  &tog 6        &none  &none  &none  &none  &none  &none  &none  &none  &sys_reset
 &none        &none            &none            &none            &none                             &bt_0  &bt_1  &out OUT_USB  &none  &none  &none         &none  &none  &none  &none  &none
+            >;
+        };
+
+        layer_Mouse_slow {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                                          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_Mouse_fast {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                                          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_Mouse_warp {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                                          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
