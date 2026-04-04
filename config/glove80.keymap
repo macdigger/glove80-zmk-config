@@ -442,6 +442,7 @@
             tap-ms = <1>;
             bindings = <&kp DOWN &kp UP &kp RIGHT &kp LEFT>;
         };
+
         select_word_right: select_word_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -449,6 +450,7 @@
             tap-ms = <1>;
             bindings = <&kp LA(RIGHT) &kp LA(LEFT) &kp LA(LS(RIGHT))>;
         };
+
         select_word_left: select_word_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -456,6 +458,7 @@
             tap-ms = <1>;
             bindings = <&kp LA(LEFT) &kp LA(RIGHT) &kp LA(LS(LEFT))>;
         };
+
         select_line_right: select_line_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -463,6 +466,7 @@
             tap-ms = <1>;
             bindings = <&kp LG(LEFT) &kp LS(LG(RIGHT))>;
         };
+
         select_line_left: select_line_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -470,6 +474,7 @@
             tap-ms = <1>;
             bindings = <&kp LG(RIGHT) &kp LS(LG(LEFT))>;
         };
+
         extend_word_right: extend_word_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -477,6 +482,7 @@
             tap-ms = <1>;
             bindings = <&kp LA(LS(RIGHT))>;
         };
+
         extend_word_left: extend_word_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -484,6 +490,7 @@
             tap-ms = <1>;
             bindings = <&kp LA(LS(LEFT))>;
         };
+
         extend_line_right: extend_line_right {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -491,6 +498,7 @@
             tap-ms = <1>;
             bindings = <&kp LS(DOWN) &kp LS(LG(RIGHT))>;
         };
+
         extend_line_left: extend_line_left {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -509,26 +517,34 @@
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&select_word_right>, <&select_word_left>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         select_line: select_line {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&select_line_right>, <&select_line_left>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         extend_word: extend_word {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&extend_word_right>, <&extend_word_left>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         extend_line: extend_line {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&extend_line_right>, <&extend_line_left>;
+
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
         fn_emoji_td: fn_emoji_td {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -558,12 +574,12 @@
 
         layer_Cursor {
             bindings = <
-&none      &none      &none          &none          &none                                                                       &none         &none          &none          &none          &none
-&none      &kp ESC    &kp INS        &kp LS(TAB)    &kp DEL    &none                                                 &none      &none         &none          &none          &none          &none
-&none      &kp RET    &kp SPACE      &kp TAB        &kp BSPC   &none                                                 &kp LG(X)  &kp LG(LEFT)  &kp UP_ARROW   &kp RG(RIGHT)  &kp TAB        &none
-&sk LSHFT  &kp LCTRL  &kp LALT       &kp LGUI       &kp LSHFT  &none                                                 &kp LG(C)  &kp LEFT      &kp UP         &kp DOWN       &none          &sk LSHFT
+&none      &none      &none          &none          &none                                                                                        &none         &none          &none          &none          &none
+&none      &kp ESC    &kp INS        &kp LS(TAB)    &kp DEL    &none                                                                  &none      &none         &none          &none          &none          &none
+&none      &kp RET    &kp SPACE      &kp TAB        &kp BSPC   &none                                                                  &kp LG(X)  &kp LG(LEFT)  &kp UP_ARROW   &kp RG(RIGHT)  &kp TAB        &none
+&sk LSHFT  &kp LCTRL  &kp LALT       &kp LGUI       &kp LSHFT  &none                                                                  &kp LG(C)  &kp LEFT      &kp UP         &kp RIGHT      &none          &sk LSHFT
 &kp LG(L)  &kp LG(A)  &select_line   &select_word   &kp LG(F)  &none  &none   &none  &none  &select_none  &extend_line  &extend_word  &kp LG(V)  &kp LG(LEFT)  &kp PG_UP      &kp PG_DN      &kp LG(RIGHT)  &kp LG(L)
-&kp LG(K)  &kp LG(Z)  &kp LG(LS(Z))  &kp LG(LS(G))  &kp LG(G)         &tog 1  &none  &none  &kp LG(A)  &none  &none             &kp LG(F)     &kp LG(LS(G))  &kp LG(G)      &kp LG(H)      &kp LG(K)
+&kp LG(K)  &kp LG(Z)  &kp LG(LS(Z))  &kp LG(LS(G))  &kp LG(G)         &tog 1  &none  &none  &kp LG(A)     &none         &none                    &kp LG(F)     &kp LG(LS(G))  &kp LG(G)      &kp LG(H)      &kp LG(K)
             >;
         };
 
