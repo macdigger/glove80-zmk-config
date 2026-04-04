@@ -18,7 +18,7 @@
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug 0xFF00FF  &ug 0x00FFFF  &ug GREEN  &ug YELLOW  &ug 0x6B1FCE                                   &ug BLACK  &ug YELLOW  &ug GREEN  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
-&ug YELLOW  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug 0xFF7C4D  &ug BLACK  &ug BLACK  &ug 0xFF7C4D  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug YELLOW
+&ug_cl YELLOW RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug 0xFF7C4D  &ug BLACK  &ug BLACK  &ug 0xFF7C4D  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug_cl YELLOW RED
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE          &ug BLACK  &ug 0x6B1FCE  &ug 0x6B1FCE  &ug 0x6B1FCE  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
             layer-id = <0>;
