@@ -1,11 +1,11 @@
 #include <dt-bindings/zmk/rgb_colors.h>
+#include <input/processors.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
-#include <input/processors.dtsi>
 
 /* Per-key RGB underglow */
 
@@ -22,6 +22,7 @@
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug 0xFF7C4D  &ug BLACK  &ug BLACK  &ug 0xFF7C4D  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug BLACK  &ug 0x6B1FCE          &ug 0x6B1FCE  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <0>;
         };
 
@@ -34,6 +35,7 @@
 &ug 0xFF80BF  &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug ORANGE  &ug BLACK  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug 0xFF80BF
 &ug 0xFF80BF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80          &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0xFF80BF
             >;
+
             layer-id = <1>;
         };
 
@@ -46,6 +48,7 @@
 &ug 0xD9A521  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x7A00FF  &ug 0xD9A521  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug TEAL  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug BLACK  &ug BLACK
 &ug TEAL  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug PURPLE  &ug 0xFFD900          &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <2>;
         };
 
@@ -58,6 +61,7 @@
 &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x7A00FF  &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug 0x99F5FF  &ug BLUE  &ug BLUE  &ug BLACK  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF
 &ug BLACK  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF          &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00
             >;
+
             layer-id = <3>;
         };
 
@@ -70,6 +74,7 @@
 &ug 0x7A00FF  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0xD9A521  &ug 0x7A00FF  &ug 0x80FF00  &ug 0xD9A521  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x80FF00  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x7A00FF  &ug YELLOW
 &ug 0xFF7C4D  &ug BLUE  &ug 0xFF80BF  &ug 0xFF80BF  &ug BLUE          &ug 0xD9A521  &ug 0xD9A521  &ug 0xD9A521  &ug BLACK  &ug BLACK  &ug RED          &ug YELLOW  &ug GREEN  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
             >;
+
             layer-id = <4>;
         };
 
@@ -82,6 +87,7 @@
 &ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0x80FF00  &ug 0xFFD900  &ug 0x00FF80  &ug 0xD9A521  &ug 0x7A00FF  &ug 0xD9A521  &ug BLUE  &ug BLUE  &ug BLUE  &ug 0x00FF80  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x00FF80
 &ug BLACK  &ug BLACK  &ug BLUE  &ug BLUE  &ug BLUE          &ug 0xD9A521  &ug 0xD9A521  &ug 0xD9A521  &ug BLACK  &ug RED  &ug BLACK          &ug YELLOW  &ug GREEN  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
             >;
+
             layer-id = <5>;
         };
 
@@ -94,6 +100,7 @@
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <6>;
         };
 
@@ -106,6 +113,7 @@
 &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug RED  &ug BLACK  &ug BLUE  &ug BLUE  &ug BLACK  &ug RED  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x00FF80  &ug 0xFF80BF  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED          &ug RED  &ug RED  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug RED  &ug RED          &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <7>;
         };
 
@@ -118,6 +126,7 @@
 &ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFFD900  &ug 0x80FF00  &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <9>;
         };
 
@@ -130,6 +139,7 @@
 &ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFFD900  &ug 0x80FF00  &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <10>;
         };
 
@@ -142,6 +152,7 @@
 &ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFFD900  &ug 0x80FF00  &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
+
             layer-id = <11>;
         };
     };
@@ -391,10 +402,12 @@
         layers = <9>;
         input-processors = <&zip_xy_scaler 1 12>;
     };
+
     fast {
         layers = <10>;
         input-processors = <&zip_xy_scaler 4 1>;
     };
+
     warp {
         layers = <11>;
         input-processors = <&zip_xy_scaler 12 1>;
@@ -406,10 +419,12 @@
         layers = <9>;
         input-processors = <&zip_scroll_scaler 1 9>;
     };
+
     fast {
         layers = <10>;
         input-processors = <&zip_scroll_scaler 3 1>;
     };
+
     warp {
         layers = <11>;
         input-processors = <&zip_scroll_scaler 9 1>;
@@ -444,7 +459,7 @@
 &none           &kp Q                &kp W               &kp E               &kp R                    &kp T                                                                                                 &kp Y   &kp U                 &kp I                &kp O                &kp P                    &kp MINUS
 &kp EQUAL       &left_pinky LCTRL A  &left_ringy LALT S  &left_middy LGUI D  &left_index LSHFT F      &lt 1 G                                                                                               &kp H   &right_index LSHFT J  &right_middy LGUI K  &right_ringy LALT L  &right_pinky LCTRL SEMI  &kp SQT
 &shift_left_td  &kp Z                &kp X               &kp C               &kp V                    &kp B    &lt 3 ESCAPE   &kp LS(LA(LC(LGUI)))  &kp PG_UP  &msc MOVE_Y(15)   &lt 7 INSERT  &kp ENTER    &kp N   &kp M                 &kp COMMA            &kp DOT              &kp FSLH                 &shift_right_td
-&magic 8 0      &kp BSLH             &kp LPAR            &kp RPAR            &mo 3                             &kp BACKSPACE  &lt 2 DELETE          &kp PG_DN  &msc MOVE_Y(-15)  &lt 5 TAB     &lt 4 SPACE          &sk RSHFT             &kp LBKT             &kp RBKT             &kp GRAVE                &magic 8 0
+&magic 8 0      &kp BSLH             &kp LPAR            &kp RPAR            &mo 3                             &kp BACKSPACE  &lt 2 DELETE          &kp PG_DN  &msc MOVE_Y(-15)  &lt 5 TAB     &lt 4 SPACE          &mo 3                 &kp LBKT             &kp RBKT             &kp GRAVE                &magic 8 0
             >;
         };
 
@@ -538,10 +553,10 @@
 
         layer_Mouse_slow {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                                          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
@@ -549,10 +564,10 @@
 
         layer_Mouse_fast {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                                          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
@@ -560,10 +575,10 @@
 
         layer_Mouse_warp {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                                          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
