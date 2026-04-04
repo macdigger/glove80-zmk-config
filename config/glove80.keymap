@@ -15,13 +15,12 @@
         BaseLayer {
             bindings = <
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
-&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug PURPLE  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug 0xFF00FF  &ug 0x00FFFF  &ug GREEN  &ug YELLOW  &ug 0x6B1FCE                                   &ug BLACK  &ug YELLOW  &ug GREEN  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
-&ug_cl YELLOW RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug 0xFF7C4D  &ug BLACK  &ug BLACK  &ug 0xFF7C4D  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug_cl YELLOW RED
-&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE          &ug BLACK  &ug 0x6B1FCE  &ug 0x6B1FCE  &ug 0x6B1FCE  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug 0xFF7C4D  &ug BLACK  &ug BLACK  &ug 0xFF7C4D  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug BLACK  &ug 0x6B1FCE          &ug 0x6B1FCE  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
-
             layer-id = <0>;
         };
 
@@ -34,7 +33,6 @@
 &ug 0xFF80BF  &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug ORANGE  &ug BLACK  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug 0xFF80BF
 &ug 0xFF80BF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80          &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0xFF80BF
             >;
-
             layer-id = <1>;
         };
 
@@ -47,7 +45,6 @@
 &ug 0xD9A521  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x7A00FF  &ug 0xD9A521  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug TEAL  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug BLACK  &ug BLACK
 &ug TEAL  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug PURPLE  &ug 0xFFD900          &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug BLACK  &ug BLACK
             >;
-
             layer-id = <2>;
         };
 
@@ -60,7 +57,6 @@
 &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x7A00FF  &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug 0x99F5FF  &ug BLUE  &ug BLUE  &ug BLACK  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF
 &ug BLACK  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF          &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00  &ug 0x80FF00
             >;
-
             layer-id = <3>;
         };
 
@@ -73,7 +69,6 @@
 &ug 0x7A00FF  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0xD9A521  &ug 0x7A00FF  &ug 0x80FF00  &ug 0xD9A521  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x80FF00  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x7A00FF  &ug YELLOW
 &ug 0xFF7C4D  &ug BLUE  &ug 0xFF80BF  &ug 0xFF80BF  &ug BLUE          &ug 0xD9A521  &ug 0xD9A521  &ug 0xD9A521  &ug BLACK  &ug BLACK  &ug RED          &ug YELLOW  &ug GREEN  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
             >;
-
             layer-id = <4>;
         };
 
@@ -86,7 +81,6 @@
 &ug BLACK  &ug 0x00FF80  &ug 0xFF80BF  &ug 0x80FF00  &ug 0xFFD900  &ug 0x00FF80  &ug 0xD9A521  &ug 0x7A00FF  &ug 0xD9A521  &ug BLUE  &ug BLUE  &ug BLUE  &ug 0x00FF80  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x00FF80
 &ug BLACK  &ug BLACK  &ug BLUE  &ug BLUE  &ug BLUE          &ug 0xD9A521  &ug 0xD9A521  &ug 0xD9A521  &ug BLACK  &ug RED  &ug BLACK          &ug YELLOW  &ug GREEN  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
             >;
-
             layer-id = <5>;
         };
 
@@ -99,7 +93,6 @@
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
-
             layer-id = <6>;
         };
 
@@ -112,7 +105,6 @@
 &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug RED  &ug BLACK  &ug BLUE  &ug BLUE  &ug BLACK  &ug RED  &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x00FF80  &ug 0xFF80BF  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED          &ug RED  &ug RED  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug RED  &ug RED          &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
-
             layer-id = <7>;
         };
     };
@@ -161,9 +153,9 @@
     behaviors {
         left_pinky: homey_left_pinky {
             compatible = "zmk,behavior-hold-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <270>;
-            quick-tap-ms = <300>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <5 6 7 8 9 16 17 18 19 20 21 28 29 30 31 32 33 40 41 42 43 44 45 58 59 60 61 62 63 75 76 77 78 79 57 74 56 73 55 72>;
             hold-trigger-on-release;
@@ -173,9 +165,9 @@
 
         right_pinky: homey_right_pinky {
             compatible = "zmk,behavior-hold-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <270>;
-            quick-tap-ms = <300>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 15 22 23 24 25 26 27 34 35 36 37 38 39 46 47 48 49 50 51 64 65 66 67 68 69 52 70 53 71 54>;
             hold-trigger-on-release;
@@ -185,9 +177,9 @@
 
         left_ringy: homey_left_ringy {
             compatible = "zmk,behavior-hold-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <240>;
-            quick-tap-ms = <300>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <5 6 7 8 9 16 17 18 19 20 21 28 29 30 31 32 33 40 41 42 43 44 45 58 59 60 61 62 63 75 76 77 78 79 57 74 56 73 55 72>;
             hold-trigger-on-release;
@@ -197,9 +189,9 @@
 
         right_ringy: homey_right_ringy {
             compatible = "zmk,behavior-hold-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <240>;
-            quick-tap-ms = <300>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 15 22 23 24 25 26 27 34 35 36 37 38 39 46 47 48 49 50 51 64 65 66 67 68 69 52 70 53 71 54>;
             hold-trigger-on-release;
@@ -209,9 +201,9 @@
 
         left_middy: homey_left_middy {
             compatible = "zmk,behavior-hold-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <210>;
-            quick-tap-ms = <300>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <5 6 7 8 9 16 17 18 19 20 21 28 29 30 31 32 33 40 41 42 43 44 45 58 59 60 61 62 63 75 76 77 78 79 57 74 56 73 55 72>;
             hold-trigger-on-release;
@@ -221,9 +213,9 @@
 
         right_middy: homey_right_middy {
             compatible = "zmk,behavior-hold-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <210>;
-            quick-tap-ms = <300>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 15 22 23 24 25 26 27 34 35 36 37 38 39 46 47 48 49 50 51 64 65 66 67 68 69 52 70 53 71 54>;
             hold-trigger-on-release;
@@ -233,9 +225,9 @@
 
         left_index: homey_left_index {
             compatible = "zmk,behavior-hold-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <180>;
-            quick-tap-ms = <300>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <5 6 7 8 9 16 17 18 19 20 21 28 29 30 31 32 33 40 41 42 43 44 45 58 59 60 61 62 63 75 76 77 78 79 57 74 56 73 55 72>;
             hold-trigger-on-release;
@@ -245,9 +237,9 @@
 
         right_index: homey_right_index {
             compatible = "zmk,behavior-hold-tap";
-            flavor = "tap-preferred";
-            tapping-term-ms = <180>;
-            quick-tap-ms = <300>;
+            flavor = "balanced";
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 15 22 23 24 25 26 27 34 35 36 37 38 39 46 47 48 49 50 51 64 65 66 67 68 69 52 70 53 71 54>;
             hold-trigger-on-release;
