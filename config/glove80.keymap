@@ -17,7 +17,7 @@
             bindings = <
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80
 &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
-&ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0xFFD900                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug 0xFF00FF  &ug 0x00FFFF  &ug GREEN  &ug YELLOW  &ug 0x6B1FCE                                   &ug BLACK  &ug YELLOW  &ug GREEN  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
