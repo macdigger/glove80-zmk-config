@@ -30,9 +30,9 @@
             bindings = <
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug 0x00FF80  &ug BLACK  &ug 0x00FF80  &ug BLACK  &ug BLACK
-&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug GREEN  &ug 0x99F5FF  &ug RED  &ug 0x99F5FF  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug RED  &ug 0x99F5FF  &ug RED  &ug 0x99F5FF  &ug BLACK  &ug BLACK
 &ug YELLOW  &ug 0xFF00FF  &ug 0x00FFFF  &ug GREEN  &ug YELLOW  &ug BLACK                                   &ug GREEN  &ug RED  &ug RED  &ug RED  &ug BLACK  &ug YELLOW
-&ug 0x00FF80  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug 0x7A00FF  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug GREEN  &ug 0x00FF80  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug BLACK
+&ug 0x00FF80  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug 0x7A00FF  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug ORANGE  &ug 0x00FF80  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug BLACK
 &ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x7A00FF  &ug 0x7A00FF          &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug BLACK  &ug 0x00FF80
             >;
 
@@ -89,6 +89,19 @@
             >;
 
             layer-id = <6>;
+        };
+
+        Magic {
+            bindings = <
+&ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED
+&ug WHITE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug GREEN  &ug GREEN  &ug GREEN  &ug GREEN  &ug GREEN                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug RED  &ug GREEN  &ug GREEN  &ug GREEN  &ug GREEN  &ug GREEN                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED
+&ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FFFF  &ug 0x00FFFF  &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug RED
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug 0x00FFFF  &ug 0x00FFFF  &ug BLUE  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+            >;
+
+            layer-id = <5>;
         };
 
     };
@@ -460,8 +473,8 @@
 &fn_emoji_td               &kp N1               &kp N2              &kp N3              &mt LS(LG(N4)) NUMBER_4  &kp N5                                                                                       &kp N6  &kp N7                &kp N8               &kp N9               &kp N0                   &kp MINUS
 &kp LS(LA(LC(LG(SPACE))))  &kp Q                &kp W               &kp E               &kp R                    &lt 2 T                                                                                        &kp Y   &kp U                 &kp I                &kp O                &kp P                    &kp BACKSLASH
 &kp EQUAL                  &left_pinky LCTRL A  &left_ringy LALT S  &left_middy LGUI D  &left_index LSHFT F      &lt 1 G                                                                                      &kp H   &right_index LSHFT J  &right_middy LGUI K  &right_ringy LALT L  &right_pinky LCTRL SEMI  &kp SQT
-&shift_left_td             &kp Z                &kp X               &kp C               &kp V                    &kp B    &kp BACKSPACE  &kp TAB        &mo 3      &msc MOVE_Y(15)   &kp INSERT    &kp ENTER  &kp N   &kp M                 &kp COMMA            &kp DOT              &kp FSLH                 &shift_right_td
-&magic 5 0                 &kp HOME             &kp END             &kp DOWN            &kp UP_ARROW                      &kp ESCAPE     &lt 6 DELETE   &kp SPACE  &msc MOVE_Y(-15)  &mo 6         &kp SPACE          &kp LEFT              &kp RIGHT            &kp GRAVE            &kp LBKT                 &kp RBKT
+&shift_left_td             &kp Z                &kp X               &kp C               &kp V                    &kp B    &kp ESCAPE     &kp TAB        &mo 3      &msc MOVE_Y(15)   &kp INSERT    &kp ENTER  &kp N   &kp M                 &kp COMMA            &kp DOT              &kp FSLH                 &shift_right_td
+&magic 5 0                 &kp HOME             &kp END             &kp DOWN            &kp UP_ARROW                      &kp BACKSPACE  &lt 6 DELETE   &kp SPACE  &msc MOVE_Y(-15)  &mo 6         &kp SPACE          &kp LEFT              &kp RIGHT            &kp GRAVE            &kp LBKT                 &kp RBKT
             >;
         };
 
