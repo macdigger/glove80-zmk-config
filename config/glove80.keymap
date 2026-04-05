@@ -17,7 +17,7 @@
             bindings = <
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80
 &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
-&ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug 0xFF00FF  &ug 0x00FFFF  &ug GREEN  &ug YELLOW  &ug 0x6B1FCE                                   &ug BLACK  &ug YELLOW  &ug GREEN  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
@@ -33,7 +33,7 @@
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug GREEN  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug BLACK
 &ug YELLOW  &ug 0xFF00FF  &ug 0x00FFFF  &ug GREEN  &ug YELLOW  &ug BLACK                                   &ug GREEN  &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug YELLOW
 &ug 0x00FF80  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug 0x7A00FF  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug GREEN  &ug 0x00FF80  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug BLACK
-&ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x7A00FF  &ug 0x7A00FF          &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug BLACK  &ug 0x00FF80
+&ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x7A00FF  &ug 0x7A00FF          &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug BLACK  &ug 0x00FF80
             >;
 
             layer-id = <1>;
@@ -42,11 +42,11 @@
         Number {
             bindings = <
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
-&ug BLACK  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug BLACK                                   &ug TEAL  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
-&ug BLACK  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug 0xFF7C4D  &ug 0xFFD900                                   &ug TEAL  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug BLACK  &ug BLACK
-&ug YELLOW  &ug 0xFF00FF  &ug 0x00FFFF  &ug GREEN  &ug YELLOW  &ug TEAL                                   &ug TEAL  &ug 0xFFD900  &ug PINK  &ug 0xFFD900  &ug BLACK  &ug BLACK
-&ug 0xD9A521  &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug 0x7A00FF  &ug 0xD9A521  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug 0x00FF80  &ug TEAL  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug BLACK  &ug BLACK
-&ug TEAL  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF          &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug PURPLE  &ug 0xFFD900          &ug 0x00FF80  &ug 0x00FF80  &ug 0x00FF80  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug GREEN  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug YELLOW  &ug BLACK
+&ug YELLOW  &ug 0xFF00FF  &ug 0x00FFFF  &ug GREEN  &ug YELLOW  &ug BLACK                                   &ug BLACK  &ug 0xFFD900  &ug 0xFF7C4D  &ug 0xFFD900  &ug BLUE  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0xFF80BF  &ug BLACK  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug RED  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug RED  &ug BLACK  &ug BLACK  &ug 0xFF80BF  &ug 0xFFD900          &ug 0x00FF80  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
 
             layer-id = <2>;
@@ -445,7 +445,7 @@
             bindings = <
 &kp F1                     &kp F2               &kp F3              &kp F4              &kp F5                                                                                                                        &kp F6                &kp F7               &kp F8               &kp F9                   &kp F10
 &fn_emoji_td               &kp N1               &kp N2              &kp N3              &mt LS(LG(N4)) NUMBER_4  &kp N5                                                                                       &kp N6  &kp N7                &kp N8               &kp N9               &kp N0                   &kp MINUS
-&kp LS(LA(LC(LG(SPACE))))  &kp Q                &kp W               &kp E               &kp R                    &kp T                                                                                        &kp Y   &kp U                 &kp I                &kp O                &kp P                    &kp BACKSLASH
+&kp LS(LA(LC(LG(SPACE))))  &kp Q                &kp W               &kp E               &kp R                    &lt 2 T                                                                                        &kp Y   &kp U                 &kp I                &kp O                &kp P                    &kp BACKSLASH
 &kp EQUAL                  &left_pinky LCTRL A  &left_ringy LALT S  &left_middy LGUI D  &left_index LSHFT F      &lt 1 G                                                                                      &kp H   &right_index LSHFT J  &right_middy LGUI K  &right_ringy LALT L  &right_pinky LCTRL SEMI  &kp SQT
 &shift_left_td             &kp Z                &kp X               &kp C               &kp V                    &kp B    &kp ESCAPE     &kp TAB        &mo 3      &msc MOVE_Y(15)   &kp INSERT    &kp ENTER  &kp N   &kp M                 &kp COMMA            &kp DOT              &kp FSLH                 &shift_right_td
 &magic 5 0                 &kp HOME             &kp END             &kp DOWN            &kp UP_ARROW                      &kp BACKSPACE  &lt 6 DELETE   &kp SPACE  &msc MOVE_Y(-15)  &mo 6         &kp SPACE          &kp LEFT              &kp RIGHT            &kp GRAVE            &kp LBKT                 &kp RBKT
@@ -465,12 +465,12 @@
 
         layer_Number {
             bindings = <
-&none          &none      &none          &none          &none                                                                                       &kp A       &kp B       &kp C       &kp D          &kp E
-&none          &kp ESC    &kp INS        &kp LS(TAB)    &kp DEL    &none                                                              &kp LS(BSLH)  &kp LS(N3)  &kp LS(N4)  &kp LS(N6)  &kp LS(GRAVE)  &kp LS(N1)
-&none          &kp RET    &kp SPACE      &kp TAB        &kp BSPC   &kp N0                                                             &kp LS(G)     &kp N7      &kp N8      &kp N9      &kp LS(SEMI)   &kp LS(N5)
-&sk LSHFT      &kp LCTRL  &kp LALT       &kp LGUI       &kp LSHFT  &kp X                                                              &kp K         &kp N4      &kp N5      &kp N6      &kp MINUS      &kp LS(EQUAL)
-&kp E          &kp LG(A)  &none          &none          &kp LG(F)  &kp F   &none  &none   &none  &kp LS(COMMA)  &kp EQUAL  &kp COMMA  &kp J         &kp N1      &kp N2      &kp N3      &kp FSLH       &kp LS(N8)
-&kp LS(MINUS)  &kp LG(Z)  &kp LG(LS(Z))  &kp LG(LS(G))  &kp LG(G)          &none  &tog 2  &none  &kp LS(DOT)    &kp DOT    &kp N0                   &kp LS(N9)  &kp LBKT    &kp RBKT    &kp LS(N0)     &kp LS(N2)
+&none      &none      &none          &none          &none                                                                                   &none          &none      &none      &none          &none
+&none      &none      &none          &none          &none      &none                                                              &none      &none          &none      &none      &kp LS(EQUAL)  &none
+&none      &none      &none          &none          &none      &none                                                              &none      &kp N7         &kp N8     &kp N9     &kp MINUS      &none
+&sk LSHFT  &kp LCTRL  &kp LALT       &kp LGUI       &kp LSHFT  &none                                                              &none      &kp N4         &kp N5     &kp N6     &kp LS(N8)     &none
+&none      &none      &none          &none          &none      &none   &none  &none   &none  &none          &none      &kp DOT    &none      &kp N1         &kp N2     &kp N3     &kp FSLH       &none
+&none      &none      &none          &none          &none              &none  &tog 2  &none  &none          &kp DOT    &kp N0                &kp EQUAL      &none      &none      &none          &none
             >;
         };
 
