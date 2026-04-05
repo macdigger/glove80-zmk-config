@@ -695,12 +695,12 @@
 
         layer_symbols2 {
             bindings = <
-&trans  &trans        &trans      &trans                &trans                                                                                                  &trans        &trans        &trans        &trans        &trans
-&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)         &kp LS(DLLR)           &kp LS(PRCNT)                                                  &kp LS(CARET)     &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans
-&trans  &trans        &trans      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS                                                       &kp LESS_THAN     &kp AMPS      &trans        &trans        &trans        &trans
-&trans  &trans        &trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                                                      &kp GREATER_THAN  &trans        &trans        &trans        &trans        &trans
-&trans  &trans        &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOT        &trans  &trans  &trans  &trans  &trans  &trans  &kp SLASH         &trans        &trans        &trans        &trans        &trans
-&trans  &trans        &trans      &trans                &trans                                &trans  &trans  &trans  &trans  &trans  &trans                    &trans        &trans        &trans        &trans        &trans
+&trans  &trans              &trans       &trans                &trans                                                                                                            &trans            &trans            &trans              &trans                 &trans
+&trans  &kp EXCLAMATION     &kp AT_SIGN  &kp HASH              &kp DOLLAR             &kp PERCENT                                                          &kp CARET             &kp AMPERSAND     &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp EXCLAMATION     &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS                                                            &kp BSLH              &kp PIPE          &kp AMPERSAND     &kp QUESTION          &kp PERCENT            &trans
+&trans  &kp HASH            &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                                                           &kp SEMI              &kp COLON         &kp UNDERSCORE    &kp MINUS             &kp FSLH               &trans
+&trans  &kp TILDE           &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOT    &trans  &trans  &trans  &trans  &trans  &trans            &kp LESS_THAN         &kp GREATER_THAN  &kp SQT           &kp DOUBLE_QUOTES     &kp GRAVE              &trans
+&trans  &trans              &trans       &trans                &trans                             &trans  &trans  &trans  &trans  &trans  &trans                                  &trans            &trans            &trans                &trans                 &trans
             >;
         };
     };
