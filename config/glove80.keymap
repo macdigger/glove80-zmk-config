@@ -93,12 +93,12 @@
 
         CopyFlash {
             bindings = <
-&ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0                                                     &trans  &trans  &trans  &trans  &trans
-&ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0                                   &trans  &trans  &trans  &trans  &trans  &trans
-&ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0                                   &trans  &trans  &trans  &trans  &trans  &trans
-&ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0                                   &trans  &trans  &trans  &trans  &trans  &trans
-&ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0          &ug 0x80FFB0  &ug 0x80FFB0  &ug 0x80FFB0  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020                                                     &trans  &trans  &trans  &trans  &trans
+&ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020                                   &trans  &trans  &trans  &trans  &trans  &trans
+&ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020                                   &trans  &trans  &trans  &trans  &trans  &trans
+&ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020                                   &trans  &trans  &trans  &trans  &trans  &trans
+&ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020  &ug 0x804020          &ug 0x804020  &ug 0x804020  &ug 0x804020  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
 
             layer-id = <7>;
