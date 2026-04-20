@@ -85,7 +85,7 @@
 &ug BLACK  &ug 0xFFD900  &ug 0xFFD900  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x00FF80                                   &ug 0x00FF80  &ug 0x00FF80  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900
 &ug BLACK  &ug 0xFFD900  &ug 0xFFD900  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x00FF80                                   &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x00FF80  &ug 0x00FF80  &ug BLACK  &ug BLACK
 &ug_cl BLACK RED  &ug 0x00FF80  &ug 0x00FF80  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0xFFD900  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug GREEN  &ug GREEN  &ug 0x7A00FF  &ug 0x7A00FF  &ug BLACK  &ug_cl BLACK RED
-&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug RED  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
 
             layer-id = <6>;
@@ -594,7 +594,7 @@
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS                                                     &kp FSLH   &kp UNDERSCORE     &kp GRAVE      &kp QUESTION          &kp BSLH               &kp PERCENT
 &trans  &kp HASH         &kp DOLLAR   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL                                                    &kp COLON  &kp SEMI           &kp MINUS      &kp PIPE              &trans                 &trans
 &trans  &kp TILDE        &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOT      &trans  &trans  &trans  &trans  &trans  &trans  &kp SQT    &kp DOUBLE_QUOTES  &kp LESS_THAN  &kp GREATER_THAN      &trans                 &trans
-&trans  &trans           &trans       &trans                &trans                              &trans  &trans  &trans  &trans  &trans  &trans             &trans             &trans         &trans                &trans                 &trans
+&trans  &trans           &trans       &trans                &trans                              &kp DELETE  &trans  &trans  &trans  &trans  &trans             &trans             &trans         &trans                &trans                 &trans
             >;
         };
 
