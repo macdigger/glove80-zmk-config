@@ -18,7 +18,7 @@
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug 0x94E3FE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
-&ug BLACK  &ug 0xFF00FF  &ug 0x00FFFF  &ug 0xFFFFAA  &ug YELLOW  &ug 0x6B1FCE                                   &ug BLACK  &ug YELLOW  &ug 0xFFFFAA  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
+&ug BLACK  &ug 0xFF00FF  &ug 0x00FFFF  &ug 0xFF6600  &ug YELLOW  &ug 0x6B1FCE                                   &ug BLACK  &ug YELLOW  &ug 0xFF6600  &ug 0x00FFFF  &ug 0xFF00FF  &ug BLACK
 &ug_cl YELLOW RED  &ug 0x4080FF  &ug RED  &ug GREEN  &ug ORANGE  &ug 0xFFE080  &ug BLACK  &ug BLACK  &ug 0x200000  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug_cl YELLOW RED
 &ug 0x6B1FCE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug 0x6B1FCE  &ug 0x6B1FCE  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug 0x002040  &ug BLACK  &ug BLACK
             >;
