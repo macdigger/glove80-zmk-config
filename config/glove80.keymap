@@ -31,9 +31,9 @@
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                                     &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug BLACK  &ug 0x00FF80  &ug BLACK  &ug 0x00FF80  &ug BLACK  &ug BLACK
 &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK                                   &ug RED  &ug 0x99F5FF  &ug RED  &ug 0x99F5FF  &ug BLACK  &ug BLACK
-&ug YELLOW  &ug 0xFF00FF  &ug 0x00FFFF  &ug 0xFFFFAA  &ug YELLOW  &ug BLACK                                   &ug BLACK  &ug RED  &ug RED  &ug RED  &ug BLACK  &ug YELLOW
-&ug_cl 0x00FF80 RED  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug 0x7A00FF  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug BLACK  &ug ORANGE  &ug 0x00FF80  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug_cl BLACK RED
-&ug 0x00FF80  &ug 0xFF80BF  &ug 0xFF80BF  &ug 0x7A00FF  &ug 0x7A00FF          &ug RED  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug BLACK  &ug BLACK          &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x7A00FF  &ug BLACK  &ug 0x00FF80
+&ug BLACK   &ug 0xFF00FF  &ug 0x00FFFF  &ug 0xFFFFAA  &ug YELLOW  &ug BLACK                                   &ug BLACK  &ug RED  &ug RED  &ug RED  &ug BLACK  &ug BLACK
+&ug_cl BLACK RED     &ug BLACK     &ug BLACK     &ug BLACK     &ug 0x7A00FF  &ug BLACK  &ug BLACK  &ug BLACK  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug BLACK  &ug ORANGE  &ug 0x00FF80  &ug 0x99F5FF  &ug 0x99F5FF  &ug BLACK  &ug_cl BLACK RED
+&ug BLACK     &ug BLACK     &ug BLACK     &ug 0x7A00FF  &ug 0x7A00FF          &ug RED  &ug BLACK  &ug BLACK  &ug 0x00FF80  &ug BLACK  &ug BLACK          &ug 0x7A00FF  &ug 0x7A00FF  &ug BLACK     &ug BLACK  &ug BLACK
             >;
 
             layer-id = <1>;
@@ -85,7 +85,7 @@
 &ug BLACK  &ug 0xFFD900  &ug 0xFFD900  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x00FF80                                   &ug 0x00FF80  &ug 0x00FF80  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900  &ug 0xFFD900
 &ug BLACK  &ug 0xFFD900  &ug 0xFFD900  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0x00FF80                                   &ug 0x99F5FF  &ug 0x99F5FF  &ug 0x00FF80  &ug 0x00FF80  &ug BLACK  &ug BLACK
 &ug_cl BLACK RED  &ug 0x00FF80  &ug 0x00FF80  &ug 0x7A00FF  &ug 0x7A00FF  &ug 0xFFD900  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug GREEN  &ug GREEN  &ug 0x7A00FF  &ug 0x7A00FF  &ug BLACK  &ug_cl BLACK RED
-&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug WHITE  &ug GREEN  &ug 0x200000  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
+&ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK          &ug WHITE  &ug 0x00FFFF  &ug 0xFF80BF  &ug BLACK  &ug BLACK  &ug BLACK          &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK
             >;
 
             layer-id = <6>;
@@ -537,9 +537,9 @@
 &none      &none      &none          &none          &none                                                                                        &none         &none          &none          &none      &none
 &none      &none      &none          &none          &none      &none                                                                  &none      &kp LG(LBKT)  &none          &kp LG(RBKT)   &none      &none
 &none      &none      &none          &none          &none      &none                                                                  &kp LS(LC(LA(LG(N8))))  &kp LG(LEFT)  &kp UP_ARROW   &kp RG(RIGHT)  &kp TAB    &none
-&sk LSHFT  &kp LCTRL  &kp LALT       &kp LGUI       &kp LSHFT  &none                                                                  &none  &kp LEFT      &kp DOWN       &kp RIGHT      &none      &sk LSHFT
-&kp LG(L)  &kp LG(A)  &select_line   &select_word   &kp LG(F)  &none  &none   &none  &none  &select_none  &extend_line  &extend_word  &kp LS(LC(LA(LG(V))))  &kp LG(L)     &kp PG_UP      &kp PG_DN      &none      &none
-&kp LG(K)  &kp LG(Z)  &kp LG(LS(Z))  &kp LG(LS(G))  &kp LG(G)         &tog 1  &none  &none  &kp LG(A)     &none         &none                    &kp LG(F)     &kp LG(LS(G))  &kp LG(G)      &kp LG(H)  &kp LG(K)
+&none      &kp LCTRL  &kp LALT       &kp LGUI       &kp LSHFT  &none                                                                  &none  &kp LEFT      &kp DOWN       &kp RIGHT      &none      &none
+&none      &none      &none          &none          &kp LG(F)  &none  &none   &none  &none  &select_none  &extend_line  &extend_word  &kp LS(LC(LA(LG(V))))  &kp LG(L)     &kp PG_UP      &kp PG_DN      &none      &none
+&none      &none      &none          &kp LG(LS(G))  &kp LG(G)         &tog 1  &none  &none  &kp LG(A)     &none         &none                    &kp LS(LA(LEFT))  &kp LS(LA(RIGHT))  &none      &none      &none
             >;
         };
 
